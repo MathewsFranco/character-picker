@@ -1,48 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Character-picker</title>
-  <link rel="stylesheet" href="./base.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-  <h1 id="headText">Pick one!</h1>
-  <div class="charCard" id="char1">
-    <p id="mageClass">Mage</p>
-    <img src="/picSource/mage.png" alt="skinny mage woman">
-    <p id="charName">Alzira</p>
-    <div id="stats">
-      <p class="int">Int: <span>77</span></p>
-      <p class="agi">Agi: <span>56</span></p>
-      <p class="str">Str: <span>36</span></p>
-    </div>
-    <input type="button" value="Pick!">
-  </div>
-  <div class="charCard" id="char2">
-    <p id="rogueClass">Rogue</p>
-    <img src="/picSource/Rogue.png" alt="Black woman from behind">
-    <p id="charName">Jeniffher</p>
-    <div id="stats">
-      <p class="int">Int: <span>51</span></p>
-      <p class="agi">Agi: <span>87</span></p>
-      <p class="str">Str: <span>48</span></p>
-    </div>
-    <input type="button" value="Pick!">
-  </div>
-  <div class="charCard" id="char3">
-    <p id="warriorClass">Warrior</p>
-    <img src="/picSource/warrior.png" alt="Man with a shield and sword in some sort of aboriginal style">
-    <p id="charName">Sighvat</p>
-    <div id="stats">
-      <p class="int">Int: <span>33</span></p>
-      <p class="agi">Agi: <span>41</span></p>
-      <p class="str">Str: <span>88</span></p>
-    </div>
-    <input type="button" value="Pick!">
-  </div>
-</body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character-picker</title>
+    <link rel="stylesheet" href="./base.css" />
+  </head>
 
+  <body>
+    <h1 id="headText">Pick one!</h1>
+    <div id="cards">
+      <div class="charCard" id="char1">
+        <p id="mageClass">Mage</p>
+        <div class="imgDiv">
+          <img
+            class="charImg"
+            src="/picSource/mage.png"
+            alt="skinny mage woman"
+          />
+        </div>
+        <p class="charName">Alzira</p>
+        <div class="statsNButton">
+          <div class="stats">
+            <p class="int">
+              <i class="fas fa-hat-wizard"></i> Int: <span>77</span>
+            </p>
+            <p class="agi">
+              <i class="fas fa-feather-alt"></i> Agi: <span>56</span>
+            </p>
+            <p class="str">
+              <i class="fas fa-fist-raised"></i> Str: <span>36</span>
+            </p>
+          </div>
+          <input class="selectionButton" type="button" value="Pick!" />
+        </div>
+      </div>
+      <div class="charCard" id="char2">
+        <p id="rogueClass">Rogue</p>
+        <div class="imgDiv">
+          <img
+            class="charImg"
+            src="/picSource/Rogue.png"
+            alt="Black woman from behind"
+          />
+        </div>
+        <p class="charName">Jeniffher</p>
+        <div class="statsNButton">
+          <div class="stats">
+            <p class="int">
+              <i class="fas fa-hat-wizard"></i> Int: <span>51</span>
+            </p>
+            <p class="agi">
+              <i class="fas fa-feather-alt"></i> Agi: <span>87</span>
+            </p>
+            <p class="str">
+              <i class="fas fa-fist-raised"></i> Str: <span>48</span>
+            </p>
+          </div>
+          <input class="selectionButton" type="button" value="Pick!" />
+        </div>
+      </div>
+      <div class="charCard" id="char3">
+        <p id="warriorClass">Warrior</p>
+        <div class="imgDiv">
+          <img
+            class="charImg"
+            src="/picSource/warrior.png"
+            alt="Man with a shield and sword in some sort of aboriginal style"
+          />
+        </div>
+        <p class="charName">Sighvat</p>
+        <div class="statsNButton">
+          <div class="stats">
+            <p class="int">
+              <i class="fas fa-hat-wizard"></i> Int: <span>33</span>
+            </p>
+            <p class="agi">
+              <i class="fas fa-feather-alt"></i> Agi: <span>41</span>
+            </p>
+            <p class="str">
+              <i class="fas fa-fist-raised"></i> Str: <span>88</span>
+            </p>
+          </div>
+          <input class="selectionButton" type="button" value="Pick!" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
