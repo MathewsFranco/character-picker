@@ -4,32 +4,20 @@ html {
   --colorVanadylBlue: #0097e6;
   --colorPeriwinkle: #9c88ff;
   --colorMattPurple: #8c7ae6;
-  --colorRiseNShine:#fbc531;
-  --colorNanohanachaGold:#e1b12c;
-  --colorDownloadProgress:#4cd137;
-  --colorSkirretGreen:#44bd32;
-  --colorSeabrook:#487eb0;
-  --colorNaval:#40739e;
-  --colorNasturcianFlower:#e84118;
-  --colorHarleyDavidsonOrange:#c23616;
-  --colorLynxWhite:#f5f6fa;
-  --colorHintOfPensive:#dcdde1;
-  --colorBleberrySoda:#7f8fa6;
-  --colorChainGangGrey:#718093;
-  --colorMazarineBlue:#273c75;
-  --colorPicoVoid:#192a56;
-  --colorBlueNights:#353b48;
-  --colorElectromagnect:#2f3640;
-}
-body {
-  background-color: var(--colorElectromagnect);
-}
-.headText {
-  border-style: solid;
-  border-width: 4px;
-  margin: 5% 25%;
-  text-align: center;
-  color: var(--colorHarleyDavidsonOrange);
-  background-color: var(--colorElectromagnect);
-
+  --colorRiseNShine: #fbc531;
+  --colorNanohanachaGold: #e1b12c;
+  --colorDownloadProgress: #4cd137;
+  --colorSkirretGreen: #44bd32;
+  --colorSeabrook: #487eb0;
+  --colorNaval: #40739e;
+  --colorNasturcianFlower: #e84118;
+  --colorHarleyDavidsonOrange: #c23616;
+  --colorLynxWhite: #f5f6fa;
+  --colorHintOfPensive: #dcdde1;
+  --colorBleberrySoda: #7f8fa6;
+  --colorChainGangGrey: #718093;
+  --colorMazarineBlue: #273c75;
+  --colorPicoVoid: #192a56;
+  --colorBlueNights: #353b48;
+  --colorElectromagnect: #2f3640;
 }
