@@ -1,0 +1,24 @@
+{
+  "name": "character-picker",
+  "version": "1.0.0",
+  "description": "This is my first web page and i'm gonna build it using only HTML and CSS",
+  "main": "test.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathewsFranco/character-picker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathewsFranco/character-picker/issues"
+  },
+  "homepage": "https://github.com/MathewsFranco/character-picker#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
