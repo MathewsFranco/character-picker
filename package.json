@@ -20,5 +20,8 @@
   "homepage": "https://github.com/MathewsFranco/character-picker#readme",
   "devDependencies": {
     "cssnano": "^4.1.10"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
   }
 }

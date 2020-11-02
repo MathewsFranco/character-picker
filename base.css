@@ -21,3 +21,97 @@ html {
   --colorBlueNights: #353b48;
   --colorElectromagnect: #2f3640;
 }
+body {
+  background-color: var(--colorElectromagnect);
+  font-family: "Bebas Neue", cursive;
+}
+#headText {
+  background: none;
+  text-align: center;
+  font-size: 50px;
+  color: var(--colorNanohanachaGold);
+}
+#mageClass {
+  font-size: 25px;
+  color: var(--colorProtossPylon);
+  text-align: center;
+}
+#rogueClass {
+  font-size: 25px;
+  color: var(--colorDownloadProgress);
+  text-align: center;
+}
+#warriorClass {
+  font-size: 25px;
+  color: var(--colorNasturcianFlower);
+  text-align: center;
+}
+.charName {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 150%;
+}
+img.charImg {
+  width: auto;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+#cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.charCard {
+  border: solid;
+  border-radius: 0 50px 50px 50px;
+  background-color: var(--colorBlueNights);
+  transition: 1s;
+  margin: 5px;
+}
+.imgDiv {
+  width: 360px;
+  height: 440px;
+}
+.statsNButton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3%;
+}
+.selectionButton {
+  padding: 15%;
+  background: none;
+  border: solid;
+  border-radius: 0 50px 50px 50px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 140%;
+  outline: none;
+  transition: 0.6s;
+}
+.stats {
+  margin-left: 60px;
+  font-size: 130%;
+}
+.int {
+  color: var(--colorProtossPylon);
+}
+.agi {
+  color: var(--colorDownloadProgress);
+}
+.str {
+  color: var(--colorNasturcianFlower);
+}
+#char1:hover {
+  border-color: var(--colorProtossPylon);
+}
+#char2:hover {
+  border-color: var(--colorDownloadProgress);
+}
+#char3:hover {
+  border-color: var(--colorNasturcianFlower);
+}
+.selectionButton:active {
+  background-color: var(--colorNanohanachaGold);
+}
