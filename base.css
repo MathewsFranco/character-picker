@@ -105,12 +105,15 @@ img.charImg {
 }
 #char1:hover {
   border-color: var(--colorProtossPylon);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 #char2:hover {
   border-color: var(--colorDownloadProgress);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 #char3:hover {
   border-color: var(--colorNasturcianFlower);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .selectionButton:active {
   background-color: var(--colorNanohanachaGold);
