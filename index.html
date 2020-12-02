@@ -26,32 +26,37 @@
   <body>
     <h1 id="headText">Pick one!</h1>
     <div id="cards">
-      <div class="charCard" id="char1">
-        <p id="mageClass">Mage</p>
-        <div class="imgDiv">
-          <img
-            class="charImg"
-            src="./picSource/mage.png"
-            alt="skinny mage woman"
-          />
-        </div>
-        <p class="charName">Alzira</p>
-        <div class="statsNButton">
-          <div class="stats">
-            <p class="int">
-              <i class="fas fa-hat-wizard"></i> Int: <span>77</span>
-            </p>
-            <p class="agi">
-              <i class="fas fa-feather-alt"></i> Agi: <span>56</span>
-            </p>
-            <p class="str">
-              <i class="fas fa-fist-raised"></i> Str: <span>36</span>
-            </p>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="charCard char1 front">
+            <p id="mageClass">Mage</p>
+            <div class="imgDiv">
+              <img
+                class="charImg"
+                src="./picSource/mage.png"
+                alt="skinny mage woman"
+              />
+            </div>
+            <p class="charName">Alzira</p>
+            <div class="statsNButton">
+              <div class="stats">
+                <p class="int">
+                  <i class="fas fa-hat-wizard"></i> Int: <span>77</span>
+                </p>
+                <p class="agi">
+                  <i class="fas fa-feather-alt"></i> Agi: <span>56</span>
+                </p>
+                <p class="str">
+                  <i class="fas fa-fist-raised"></i> Str: <span>36</span>
+                </p>
+              </div>
+              <input class="selectionButton" type="button" value="Pick!" />
+            </div>
           </div>
-          <input class="selectionButton" type="button" value="Pick!" />
+          <div class="charCard char1 back"><p>Test!!</p></div>
         </div>
       </div>
-      <div class="charCard" id="char2">
+      <!-- <div class="charCard char2 front">
         <p id="rogueClass">Rogue</p>
         <div class="imgDiv">
           <img
@@ -76,7 +81,7 @@
           <input class="selectionButton" type="button" value="Pick!" />
         </div>
       </div>
-      <div class="charCard" id="char3">
+      <div class="charCard char3 front">
         <p id="warriorClass">Warrior</p>
         <div class="imgDiv">
           <img
@@ -99,8 +104,9 @@
             </p>
           </div>
           <input class="selectionButton" type="button" value="Pick!" />
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
     </div>
+    <script src="./character-picker.js"></script>
   </body>
 </html>
